@@ -27,6 +27,7 @@ func App() *cobra.Command {
 	cmd.AddCommand(rotateKMSKeyCmd())
 	cmd.AddCommand(rotateCmd())
 	cmd.AddCommand(versionCmd())
+	cmd.AddCommand(s3getCmd())
 
 	return cmd
 
